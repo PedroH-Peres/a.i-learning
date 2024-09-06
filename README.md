@@ -1,4 +1,4 @@
-# a.i-learning
+# A.I Learning
 
 Repositório destinado ao aprendizado e documentação
 
