@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 void printarVetor(int *vetor, int tamanho){
 
     for(int i = 0; i < tamanho;i++){
@@ -17,11 +19,11 @@ int main(){
 
     int vet[3] = {1,2,3};
 
-    imprimeVetor(v,3);
+    printarVetor(vet,3);
 
-    modificaVetor(v,3);
+    modificaVetor(vet,3);
 
-    imprimeVetor(v,3);
+    printarVetor(vet,3);
 
     return 0;
 
